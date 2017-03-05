@@ -19,8 +19,7 @@ WEB製作はWEBデザイン・設計から実装・コーディング・プロ�
 主な使用言語・ツールはHTML / HTML5 / CSS / CSS3 / Sass / Bootstrap / JavaScript / Riot.js / jQuery / gulp / GitHub / WordPress / <span class="lineThrough">PHP</span> / Photoshop / Illustrator / GitHub Atom & Emmet.<br>
 <br>
 見る人間が長く観れる・使う人間が長く使えるサイト制作を心掛けております。<br>そして、そこに紐付けできる様なデザイン・構造設計・実装・インタラクティブなモーション・アニメーション制作を強く意識して取り組みます。<br><br>
-WordPressによるCMSサイト構築、ECCUBE等のEC系CMSサイトの構築も承る事が可能です。<br>
-また、デザインのみ・コーディングのみ・プログラミングのみの案件も承る事が可能ですので、お気軽にご連絡下さい。<br>
+WordPress等のCMSサイト構築、デザインのみ・コーディングのみ・プログラミングのみの案件も承る事が可能ですので、お気軽にご連絡下さい。<br>
 <br>
 非公開案件の閲覧に関しましては、下記メールアドレスよりお問い合わせ下さい。折り返し、詳細をご連絡させて頂きます。</p>
 

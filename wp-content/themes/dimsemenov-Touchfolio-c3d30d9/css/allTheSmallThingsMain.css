@@ -158,6 +158,10 @@ div#waitingForContactUs.scaleAnimation {
 } */
 }
 
+body.page-template-about main#about {
+  padding: 0 0 20px 0;
+}
+
 body.page-template-about p {
   text-align: left;
 }

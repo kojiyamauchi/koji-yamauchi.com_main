@@ -86,6 +86,12 @@ About Us Page CSS.
 ==============================================================================*/
 body {
     &.page-template-about {
+        main {
+            &#about {
+                padding: 0 0 20px;
+            }
+        }
+
         p {
             text-align: left;
         }
