@@ -84,16 +84,6 @@ Template Name: Web Portfolio Page
           </p>
         </div>
         <div class="center">
-          <a href="<?php bloginfo('url'); ?>/color-of-life/"><br>
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2015/01/Color-of-Life.jpg" alt="Color-of-Life" width="" height=""/><br>
-          </a>
-          <h3>Color of Life.</h3>
-          <p>
-          <span class="myWork">Web Design / Coding / Programming / WordPress</span><br>
-          <a href="http://coloroflife.info" class="nonmover" target="_blank">http://coloroflife.info</a>
-          </p>
-        </div>
-        <div class="right">
           <a href="<?php bloginfo('url'); ?>/daijiro-kikuchi-official-web-site/"><br>
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2015/01/菊池大二郎オフィシャルサイト.png" alt="daijiroKikuchi" width="" height=""/><br>
           </a>
@@ -102,27 +92,6 @@ Template Name: Web Portfolio Page
           <span class="myWork">Coding / Programming / WordPress / Responsive</span><br>
           Art Direction & Web Design：<a href="http://design-bard.biz" class="nonmover" target="_blank">Design Bard</a><br>
           <a href="http://kikuchi-daijiro.com" class="nonmover" target="_blank">http://kikuchi-daijiro.com</a>
-          </p>
-        </div>
-        <div class="clearFix"></div>
-        <div class="left">
-          <a href="<?php bloginfo('url'); ?>/wangan-official-web-site/"><br>
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2015/01/WANGAN-official-web-site.png" alt="WANGAN" width="" height=""/><br>
-          </a>
-          <h3>WANGAN Official Web Site.</h3>
-          <p>
-          <span class="myWork">Web Design / Coding / Programming</span><br>
-          <a href="https://www.wangan-spl.co.jp/home" class="nonmover" target="_blank">https://www.wangan-spl.co.jp/home</a>
-          </p>
-        </div>
-        <div class="center">
-          <a href="<?php bloginfo('url'); ?>/z-s-s-official-web-site/"><br>
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2015/01/Z.S.S.-OFFICIAL-WEB-SITE.png" alt="ZSS" width="" height=""/><br>
-          </a>
-          <h3>Z.S.S. Official Web Site.</h3>
-          <p>
-          <span class="myWork">Web Design / Coding / Programming</span><br>
-          <a href="http://www.zss-racing.com" class="nonmover" target="_blank">http://www.zss-racing.com</a>
           </p>
         </div>
         <div class="clearFix"></div>
