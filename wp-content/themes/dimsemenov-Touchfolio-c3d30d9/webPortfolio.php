@@ -28,7 +28,7 @@ Template Name: Web Portfolio Page
               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2016/09/deskTop.png" alt="deskTop" width="" height="" class="deskTop"/>
             </a>
           </div>
-          <h3>Various Projects.<br>(National Client etc...)</h3>
+          <h3>Various Projects.<br>(National Client etc.)</h3>
           <p>
           <span class="myWork">Web Design / Coding / Bootstrap / Responsive / Programming / WordPress / ECCUBE</span><br>
           <a href="http://kojiyamauchi.com/privatePortfolio/portfolio.pdf" class="nonmover" target="_blank">http://kojiyamauchi.com/privatePortfolio/</a><br>
