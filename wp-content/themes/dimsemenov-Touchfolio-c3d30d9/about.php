@@ -18,12 +18,12 @@ Template Name: About Page
 WEB製作はWEBデザイン・設計から実装・コーディング・プログラミングまで承る事が可能です。<br>
 主な使用言語・ツールはHTML / HTML5 / CSS / CSS3 / Sass / Bootstrap / JavaScript / Riot.js / jQuery / gulp / GitHub / WordPress / <span class="lineThrough">PHP</span> / Photoshop / Illustrator / GitHub Atom & Emmet.<br>
 <br>
-Next Task => WebGL・React・Adobe XD.<br>
+Next Task => WebGL・React・D3.js・Adobe XD.<br>
 <br>
 見る人間が長く観れる・使う人間が長く使えるサイト制作を心掛けております。<br>そして、そこに紐付けできる様なデザイン・構造設計・実装・インタラクティブなモーション・アニメーション制作を強く意識して取り組みます。<br><br>
 WordPress等のCMSサイト構築・デザインのみ・コーディングのみ・プログラミングのみの案件も承る事が可能ですので、お気軽にご連絡下さい。<br>
 <br>
-ナショナルクライアント様等の非公開案件の閲覧に関しましては、下記メールアドレスよりお問い合わせ下さい。<br>
+ナショナルクライアント等の非公開案件の閲覧に関しましては、下記メールアドレスよりお問い合わせ下さい。<br>
 折り返し、詳細をご連絡させて頂きます。</p>
 
 <p>WEBサイトという立ち位置・意味を考え、より良い表現を形にしていきます。</p>
