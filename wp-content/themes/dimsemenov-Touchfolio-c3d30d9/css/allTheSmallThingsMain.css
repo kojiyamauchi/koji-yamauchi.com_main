@@ -159,7 +159,7 @@ div#waitingForContactUs.scaleAnimation {
 }
 
 body.page-template-about main#about {
-  padding: 0 0 20px 0;
+  padding: 0 0 20px;
 }
 
 body.page-template-about p {
@@ -291,6 +291,10 @@ body.page-template-webPortfolio .right img {
 
 body.page-template-webPortfolio h3 {
   margin: 7px 0 0.25em;
+}
+
+body.page-template-webPortfolio h3 span {
+  font-size: 1.15rem;
 }
 
 body.page-template-webPortfolio p {

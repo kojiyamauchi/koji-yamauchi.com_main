@@ -6,78 +6,78 @@ kojiyamauchi.com Main CSS.
 ==============================================================================*/
 /* Common Parts */
 .displayPC {
-    display: block;
+  display: block;
 }
 
 .displaySP {
-    display: none;
+  display: none;
 }
 /* Common Parts End. */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 #pageTop {
-    display: inline-block;
-    width: 6.5em;
-    float: right;
-    cursor: pointer;
-    margin: 50px 0 0;
-    position: relative;
-    text-align: right;
+  display: inline-block;
+  width: 6.5em;
+  float: right;
+  cursor: pointer;
+  margin: 50px 0 0;
+  position: relative;
+  text-align: right;
 }
 
 #pageTop:hover {
-    color: #cc0000;
+  color: #cc0000;
 }
 
 #pageTop #pageTopRocket {
-    position: absolute;
+  position: absolute;
 }
 
 #pageTop span.fa-rocket {
-    font-size: 2em;
-    margin: 0 0.25% 0 0;
-    vertical-align: middle;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
+  font-size: 2em;
+  margin: 0 0.25% 0 0;
+  vertical-align: middle;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
 }
 
 #pageTop img {
-    width: 2em;
-    position: absolute;
-    top: 28px;
-    left: 0;
-    height: 0;
-    opacity: 0;
+  width: 2em;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  height: 0;
+  opacity: 0;
 }
 
 #pageTop p {
-    font-size: 1em;
-    font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 #pageTop.blogFastHuntPageTop {
-    margin: 50px 0 -60px;
+  margin: 50px 0 -60px;
 }
 /*#pageTop.webSiteCreationPageTop {
     margin: 50px 0 -50px;
 }*/
 ::-moz-selection {
-    background: RGBa(204, 0, 0, 0.1);
+  background: RGBa(204, 0, 0, 0.1);
 }
 
 ::selection {
-    background: RGBa(204, 0, 0, 0.1);
+  background: RGBa(204, 0, 0, 0.1);
 }
 
 ::-moz-selection {
-    background: RGBa(204, 0, 0, 0.1);
+  background: RGBa(204, 0, 0, 0.1);
 }
 /*==============================================================================
 
@@ -85,29 +85,29 @@ About Us Page CSS.
 
 ==============================================================================*/
 body {
-    &.page-template-about {
-        main {
-            &#about {
-                padding: 0 0 20px;
-            }
-        }
+  &.page-template-about {
+    main {
+      &#about {
+        padding: 0 0 20px;
+      }
+    }
 
-        p {
-            text-align: left;
-        }
+    p {
+      text-align: left;
+    }
 
-        #name {
-            font-size: 24px;
-        }
+    #name {
+      font-size: 24px;
+    }
 
-        #ruby {
-            font-size: 14px;
-        }
+    #ruby {
+      font-size: 14px;
+    }
 
-        span.lineThrough {
-            text-decoration: line-through;
-        }
-        /* div#waitingForContactUs {
+    span.lineThrough {
+      text-decoration: line-through;
+    }
+    /* div#waitingForContactUs {
   position: relative;
   display: inline-block;
   left: 165px;
@@ -175,34 +175,34 @@ div#waitingForContactUs.scaleAnimation {
   -o-transform: rotate(-26deg);
   transform: rotate(-26deg);
 } */
-        .hentry {
-            margin-bottom: 0;
-        }
-
-        #primary {
-            padding-bottom: 0;
-        }
+    .hentry {
+      margin-bottom: 0;
     }
+
+    #primary {
+      padding-bottom: 0;
+    }
+  }
 }
 @media (max-width: 768px) {
-    body {
-        &.page-template-about {
-            div#waitingForContactUs {
-                left: 50%;
-                bottom: 0;
-                margin-left: -145px;
-            }
-        }
+  body {
+    &.page-template-about {
+      div#waitingForContactUs {
+        left: 50%;
+        bottom: 0;
+        margin-left: -145px;
+      }
     }
+  }
 }
 @media screen and (max-width: 413px) {
-    body {
-        &.page-template-about {
-            .entry-title {
-                font-size: 30px;
-            }
-        }
+  body {
+    &.page-template-about {
+      .entry-title {
+        font-size: 30px;
+      }
     }
+  }
 }
 /*==============================================================================
 
@@ -210,215 +210,219 @@ Web Site Creation Portfolio Page CSS.
 
 ==============================================================================*/
 body {
-    &.page-template-webPortfolio {
-        #loadingWrap {
-            /*display:;*/
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 10000000;
-            overflow: hidden;
-            background: #fff;
-        }
-
-        #loading {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-            width: 150px;
-            height: 100px;
-        }
-
-        #loading p {
-            text-align: center;
-            font-size: 1.2em;
-        }
-
-        #loading p#signGo {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        #loading p span.fa {
-            font-size: 3em;
-            margin-bottom: 5px;
-        }
-
-        #loading p span.fa-car {
-            transform: scale(1) translate(0, 0);
-            transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1) 0.45s;
-            color: #402012;
-        }
-
-        #loading p span.fa-car.scale {
-            transform: scale(1.85) translate(0, -12%);
-            transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1) 0.45s;
-        }
-
-        .left {
-            float: left;
-            width: 30%;
-        }
-
-        .center {
-            float: left;
-            width: 30%;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .right {
-            float: right;
-            width: 30%;
-        }
-
-        .center img,
-        .left img,
-        .right img {
-            width: 100%;
-            vertical-align: bottom;
-        }
-
-        h3 {
-            margin: 7px 0 0.25em;
-        }
-
-        p {
-            font-size: 14px;
-            line-height: 150%;
-        }
-
-        .myWork {
-            color: #fff;
-            background: #bdbdbd;
-            display: inline-block;
-            margin: 2px 0;
-            padding: 0 7px;
-            border-radius: 5px;
-        }
-
-        .clearFix {
-            clear: both;
-            height: 10px;
-        }
-
-        .unpublishedNoImageWrap {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .unpublished {
-            position: absolute;
-            top: -100%;
-            z-index: 10;
-        }
-
-        .deskTop {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 11;
-        }
-
-        #gelatoIncIMGWrap,
-        #primeMarcheIMGWrap {
-            position: relative;
-        }
-
-        .gelatoIncIMG1,
-        .primeMarcheIMG1 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 3;
-        }
-
-        .gelatoIncIMG2,
-        .primeMarcheIMG2 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 2;
-            opacity: 0;
-        }
-
-        #fastHuntIMGWrap {
-            position: relative;
-        }
-
-        .fastHuntIMG1 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 5;
-        }
-
-        .fastHuntIMG2 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 4;
-            opacity: 0;
-        }
-
-        .fastHuntIMG3 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 3;
-            opacity: 0;
-        }
-
-        .fastHuntIMG4 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 2;
-            opacity: 0;
-        }
+  &.page-template-webPortfolio {
+    #loadingWrap {
+      /*display:;*/
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10000000;
+      overflow: hidden;
+      background: #fff;
     }
+
+    #loading {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 150px;
+      height: 100px;
+    }
+
+    #loading p {
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    #loading p#signGo {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+    #loading p span.fa {
+      font-size: 3em;
+      margin-bottom: 5px;
+    }
+
+    #loading p span.fa-car {
+      transform: scale(1) translate(0, 0);
+      transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1) 0.45s;
+      color: #402012;
+    }
+
+    #loading p span.fa-car.scale {
+      transform: scale(1.85) translate(0, -12%);
+      transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1) 0.45s;
+    }
+
+    .left {
+      float: left;
+      width: 30%;
+    }
+
+    .center {
+      float: left;
+      width: 30%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .right {
+      float: right;
+      width: 30%;
+    }
+
+    .center img,
+    .left img,
+    .right img {
+      width: 100%;
+      vertical-align: bottom;
+    }
+
+    h3 {
+      margin: 7px 0 0.25em;
+
+      span {
+        font-size: 1.15rem;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 150%;
+    }
+
+    .myWork {
+      color: #fff;
+      background: #bdbdbd;
+      display: inline-block;
+      margin: 2px 0;
+      padding: 0 7px;
+      border-radius: 5px;
+    }
+
+    .clearFix {
+      clear: both;
+      height: 10px;
+    }
+
+    .unpublishedNoImageWrap {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .unpublished {
+      position: absolute;
+      top: -100%;
+      z-index: 10;
+    }
+
+    .deskTop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 11;
+    }
+
+    #gelatoIncIMGWrap,
+    #primeMarcheIMGWrap {
+      position: relative;
+    }
+
+    .gelatoIncIMG1,
+    .primeMarcheIMG1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+    }
+
+    .gelatoIncIMG2,
+    .primeMarcheIMG2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      opacity: 0;
+    }
+
+    #fastHuntIMGWrap {
+      position: relative;
+    }
+
+    .fastHuntIMG1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+    }
+
+    .fastHuntIMG2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 4;
+      opacity: 0;
+    }
+
+    .fastHuntIMG3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      opacity: 0;
+    }
+
+    .fastHuntIMG4 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      opacity: 0;
+    }
+  }
 }
 @media screen and (max-width: 960px) {
-    body {
-        &.page-template-webPortfolio {
-            .left {
-                float: none;
-                width: 90%;
-                margin: 20px auto 0;
-            }
+  body {
+    &.page-template-webPortfolio {
+      .left {
+        float: none;
+        width: 90%;
+        margin: 20px auto 0;
+      }
 
-            .center {
-                float: none;
-                width: 90%;
-                margin: 20px auto 0;
-            }
+      .center {
+        float: none;
+        width: 90%;
+        margin: 20px auto 0;
+      }
 
-            .right {
-                float: none;
-                width: 90%;
-                margin: 20px auto 0;
-            }
-        }
+      .right {
+        float: none;
+        width: 90%;
+        margin: 20px auto 0;
+      }
     }
+  }
 }
 @media screen and (max-width: 413px) {
-    body {
-        &.page-template-webPortfolio {
-            .entry-title {
-                font-size: 30px;
-            }
-        }
+  body {
+    &.page-template-webPortfolio {
+      .entry-title {
+        font-size: 30px;
+      }
     }
+  }
 }
 /*==============================================================================
 
@@ -426,12 +430,12 @@ Alternative Portfolio Page CSS.
 
 ==============================================================================*/
 .page-template-ds-gallery-masonry-template-php .albums-thumbnails {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 @media screen and (max-width: 413px) {
-    .albums-thumbnails img {
-        width: 100%;
-    }
+  .albums-thumbnails img {
+    width: 100%;
+  }
 }
 /*==============================================================================
 
@@ -439,41 +443,41 @@ Single Post Page CSS.
 
 ==============================================================================*/
 body {
-    &.single-post {
-        #content {
-            text-align: center;
-            margin: 20px 0 0;
-        }
-
-        .footer-copy {
-            p {
-                padding-left: 0;
-                padding-right: 0;
-                margin: 0 auto;
-                text-align: center;
-                text-indent: 16em;
-            }
-        }
-        @media screen and (max-width: 768px) {
-            .displayPC {
-                display: none;
-            }
-
-            .displaySP {
-                display: block;
-            }
-        }
-
-        &:not(.collapsed-layout) {
-            .translateTop10 {
-                transform: translate(0, -10%);
-            }
-
-            .translateTop15 {
-                transform: translate(0, -15%);
-            }
-        }
+  &.single-post {
+    #content {
+      text-align: center;
+      margin: 20px 0 0;
     }
+
+    .footer-copy {
+      p {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        text-align: center;
+        text-indent: 16em;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .displayPC {
+        display: none;
+      }
+
+      .displaySP {
+        display: block;
+      }
+    }
+
+    &:not(.collapsed-layout) {
+      .translateTop10 {
+        transform: translate(0, -10%);
+      }
+
+      .translateTop15 {
+        transform: translate(0, -15%);
+      }
+    }
+  }
 }
 /*==============================================================================
 
@@ -481,17 +485,17 @@ SmartPhone & Tablet Header & Footer LayOut CSS.
 
 ==============================================================================*/
 body {
-    &.collapsed-layout {
-        .main-header {
-            z-index: 100;
-        }
-
-        .footer-copy {
-            p {
-                text-indent: 0;
-                text-align: center;
-                margin: 0 auto;
-            }
-        }
+  &.collapsed-layout {
+    .main-header {
+      z-index: 100;
     }
+
+    .footer-copy {
+      p {
+        text-indent: 0;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
 }
