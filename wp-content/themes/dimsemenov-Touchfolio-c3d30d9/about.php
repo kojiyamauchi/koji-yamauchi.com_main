@@ -16,9 +16,9 @@ Template Name: About Page
 現在、フリーランスとしてWEB製作に携わっています。<br>
 <br>
 WEB製作はWEBデザイン・設計から実装・コーディング・プログラミングまで承る事が可能です。<br>
-主な使用言語・ツールはHTML / HTML5 / CSS / CSS3 / Sass / Bootstrap / JavaScript / Riot.js / jQuery / gulp / GitHub / WordPress / <span class="lineThrough">PHP</span> / Photoshop / Illustrator / GitHub Atom & Emmet.<br>
+主な使用言語・ツールはHTML / HTML5 / CSS / CSS3 / Sass / Bootstrap / JavaScript / WebGL / Riot.js / jQuery / gulp / GitHub / WordPress / <span class="lineThrough">PHP</span> / Photoshop / Illustrator / GitHub Atom & Emmet.<br>
 <br>
-Next Task => WebGL・React・D3.js・Adobe XD.<br>
+Next Task => React・D3.js・Adobe XD.<br>
 <br>
 見る人間が長く観れる・使う人間が長く使えるサイト制作を心掛けております。<br>そして、そこに紐付けできる様なデザイン・構造設計・実装・インタラクティブなモーション・アニメーション制作を強く意識して取り組みます。<br><br>
 WordPress等のCMSサイト構築・デザインのみ・コーディングのみ・プログラミングのみの案件も承る事が可能ですので、お気軽にご連絡下さい。<br>
