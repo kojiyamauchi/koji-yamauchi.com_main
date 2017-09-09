@@ -28,9 +28,9 @@ Template Name: Web Portfolio Page
               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2016/09/deskTop.png" alt="deskTop" width="" height="" class="deskTop"/>
             </a>
           </div>
-          <h3>Various Projects.<br><span>(Adidas・Nissan・Alibaba・JTB etc.)</span></h3>
+          <h3>Various Projects.<br><span>(Adidas・Nissan・Alibaba・Nomura Proud・Hochiki・JTB・START TODAY Engineering・DMM.com・Donuts・Branding Engineer etc.)</span></h3>
           <p>
-          <span class="myWork">Web Design / Coding / Bootstrap / Responsive / Programming / WordPress / ECCUBE</span><br>
+          <span class="myWork">Web Design / Coding / Programming / Responsive / WordPress</span><br>
           <a href="http://kojiyamauchi.com/privatePortfolio/portfolio.pdf" class="nonmover" target="_blank">http://kojiyamauchi.com/privatePortfolio/</a><br>
           <a href="<?php bloginfo('url'); ?>/about-us">please contact us, for more information.</a>
           </p>
@@ -78,7 +78,7 @@ Template Name: Web Portfolio Page
           </div>
           <h3>Fast Hunt.</h3>
           <p>
-          <span class="myWork">Coding / Programming / Bootstrap</span><br>
+          <span class="myWork">Coding / Programming</span><br>
           URL：unpublished.<br>
           <a href="<?php bloginfo('url'); ?>/about-us">please contact us, for more information.</a>
           </p>
