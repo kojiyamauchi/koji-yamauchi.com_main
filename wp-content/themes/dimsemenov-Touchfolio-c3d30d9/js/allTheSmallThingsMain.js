@@ -80,6 +80,13 @@ jQuery(function ($) {
                 "top": -100 + "%"
             }, 1500, "swing");
         });
+        $("#microBloodScienceIMGWrap a").on("mouseover", function () {
+            $(".microBloodScienceIMG1").stop(true).fadeTo(2750, 0, "easeOutQuart");
+            $(".microBloodScienceIMG2").stop(true).fadeTo(2750, 1, "easeOutQuart");
+        }).on("mouseout", function () {
+            $(".microBloodScienceIMG2").stop(true).fadeTo(2750, 0, "easeOutQuart");
+            $(".microBloodScienceIMG1").stop(true).fadeTo(2750, 1, "easeOutQuart");
+        });
         $("#primeMarcheIMGWrap a").on("mouseover", function () {
             $(".primeMarcheIMG1").stop(true).fadeTo(2750, 0, "easeOutQuart");
             $(".primeMarcheIMG2").stop(true).fadeTo(2750, 1, "easeOutQuart");
@@ -93,22 +100,6 @@ jQuery(function ($) {
         }).on("mouseout", function () {
             $(".gelatoIncIMG2").stop(true).fadeTo(2750, 0, "easeOutQuart");
             $(".gelatoIncIMG1").stop(true).fadeTo(2750, 1, "easeOutQuart");
-        });
-        $("#fastHuntIMGWrap a").on("mouseover", function () {
-            $(".fastHuntIMG1").stop(true).fadeTo(2750, 0, "easeOutQuart");
-            $(".fastHuntIMG2").stop(true).fadeTo(2750, 1, "easeOutQuart", function () {
-                $(".fastHuntIMG2").stop(true).fadeTo(2750, 0, "easeOutQuart");
-                $(".fastHuntIMG3").stop(true).fadeTo(2750, 1, "easeOutQuart", function () {
-                    $(".fastHuntIMG3").stop(true).fadeTo(2750, 0, "easeOutQuart");
-                    $(".fastHuntIMG4").stop(true).fadeTo(2750, 1, "easeOutQuart", function () {
-                        $(".fastHuntIMG4").stop(true).fadeTo(2750, 0, "easeOutQuart");
-                        $(".fastHuntIMG1").stop(true).fadeTo(2750, 1, "easeOutQuart");
-                    });
-                });
-            });
-        }).on("mouseout", function () {
-            $(".fastHuntIMG2, .fastHuntIMG3, .fastHuntIMG4").stop(true).fadeTo(2750, 0, "easeOutQuart");
-            $(".fastHuntIMG1").stop(true).fadeTo(2750, 1, "easeOutQuart");
         });
         $("span#textWait").textillate({
             loop: true,

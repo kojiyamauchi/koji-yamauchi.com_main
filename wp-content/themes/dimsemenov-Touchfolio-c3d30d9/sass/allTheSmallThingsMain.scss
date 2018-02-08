@@ -334,11 +334,13 @@ body {
       z-index: 11;
     }
 
+    #microBloodScienceIMGWrap,
     #gelatoIncIMGWrap,
     #primeMarcheIMGWrap {
       position: relative;
     }
 
+    .microBloodScienceIMG1,
     .gelatoIncIMG1,
     .primeMarcheIMG1 {
       position: absolute;
@@ -347,6 +349,7 @@ body {
       z-index: 3;
     }
 
+    .microBloodScienceIMG2,
     .gelatoIncIMG2,
     .primeMarcheIMG2 {
       position: absolute;

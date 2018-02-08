@@ -329,18 +329,18 @@ body.page-template-webPortfolio .deskTop {
   left: 0;
 }
 
-body.page-template-webPortfolio #gelatoIncIMGWrap , body.page-template-webPortfolio #primeMarcheIMGWrap {
+body.page-template-webPortfolio #microBloodScienceIMGWrap , body.page-template-webPortfolio #gelatoIncIMGWrap , body.page-template-webPortfolio #primeMarcheIMGWrap {
   position: relative;
 }
 
-body.page-template-webPortfolio .gelatoIncIMG1 , body.page-template-webPortfolio .primeMarcheIMG1 {
+body.page-template-webPortfolio .microBloodScienceIMG1 , body.page-template-webPortfolio .gelatoIncIMG1 , body.page-template-webPortfolio .primeMarcheIMG1 {
   position: absolute;
   z-index: 3;
   top: 0;
   left: 0;
 }
 
-body.page-template-webPortfolio .gelatoIncIMG2 , body.page-template-webPortfolio .primeMarcheIMG2 {
+body.page-template-webPortfolio .microBloodScienceIMG2 , body.page-template-webPortfolio .gelatoIncIMG2 , body.page-template-webPortfolio .primeMarcheIMG2 {
   position: absolute;
   z-index: 2;
   top: 0;
