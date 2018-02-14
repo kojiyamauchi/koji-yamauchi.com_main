@@ -28,7 +28,7 @@ Template Name: Web Portfolio Page
               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2016/09/deskTop.png" alt="deskTop" width="" height="" class="deskTop"/>
             </a>
           </div>
-          <h3>Various Projects.<br><span>(Adidas・Nissan・Alibaba・Nomura Proud・Hochiki・JTB・START TODAY Engineering・DMM.com・Donuts・Branding Engineer etc.)</span></h3>
+          <h3>Various Projects.<br><span>(Adidas・Nissan・NTT DOCOMO・Alibaba・Nomura Proud・Hochiki・JTB・START TODAY Engineering・DMM.com・Donuts・Branding Engineer etc.)</span></h3>
           <p>
           <span class="myWork">Web Design / HTML / CSS / JavaScript / WordPress / Responsive</span><br>
           <a href="http://kojiyamauchi.com/privatePortfolio/portfolio.pdf" class="nonmover" target="_blank">http://kojiyamauchi.com/privatePortfolio/</a><br>
@@ -46,7 +46,7 @@ Template Name: Web Portfolio Page
           <h3>micro Blood Science Inc.</h3>
           <p>
           <span class="myWork">Web Design / HTML / CSS / JavaScript / Responsive</span><br>
-          <a href="https://mbsico.jp/" class="nonmover" target="_blank">https://mbsico.jp/</a>
+          <a href="https://mbsico.jp" class="nonmover" target="_blank">https://mbsico.jp</a>
           </p>
         </div>
         <div class="right">
