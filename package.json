@@ -49,7 +49,7 @@
     "lazysizes": "^4.0.1-beta1",
     "material-design-lite": "^1.3.0",
     "moment": "^2.19.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "npm-check-updates": "^2.11.0",
     "postcss-flexbugs-fixes": "^3.2.0",
     "riot": "^3.7.4",
